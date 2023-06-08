@@ -1,0 +1,16 @@
+.banner__container {
+  width: 100%;
+}
+
+.banner__link {
+  width: 100%;
+  cursor: pointer;
+}
+
+.banner__content {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+

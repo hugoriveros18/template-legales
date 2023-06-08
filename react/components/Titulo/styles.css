@@ -1,0 +1,25 @@
+.titulo__container {
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.titulo__text {
+  margin: 0;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .titulo__container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .titulo__container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}

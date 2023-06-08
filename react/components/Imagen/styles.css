@@ -1,0 +1,29 @@
+.imagen__container {
+  display: flex;
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.imagen__link {
+  cursor: pointer;
+}
+
+.imagen__content {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  .imagen__container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .imagen__container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
